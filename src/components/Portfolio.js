@@ -1,11 +1,16 @@
 import React from "react";
+import Navigation from "./Navigation";
 
 
 function Portfolio() {
     return (
-        <h1>    
-            Whatttt
-        </h1>
+        <div className="container">
+            <div className="navigation">
+                <nav>
+                    <Navigation />
+                </nav>
+            </div>
+        </div>
     );
 }
 
