@@ -1,16 +1,15 @@
 import React from "react";
+import Portfolio from "./Portfolio";
+import Navigation from "./Navigation";
 
-function Header(){
-
+function Header() {
     return (
-
-        <h1>
-            stuff
-        </h1>
-
-    );
+        <header>
+            <h1>
+                Samantha Davidson
+            </h1>
+        </header>
+    )
 }
 
-
-
-export default Header; 
+export default Header;

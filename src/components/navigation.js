@@ -3,9 +3,13 @@ import Portfolio from "./Portfolio";
 
 function Navigation() {
     return (
-        <h1>
-            Hiiiii
-        </h1>
+        <nav className="nav-links">
+        <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
     )
 }
 
