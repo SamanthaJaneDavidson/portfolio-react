@@ -1,9 +1,6 @@
 import React from "react";
-import Portfolio from "./Portfolio";
-import Navigation from "./Navigation";
-import Header from "./Header";
 
-function Project() {
+function Projects() {
     return (
         <main className="main-page">
             <section className="projects">
@@ -14,4 +11,4 @@ function Project() {
     );
 }
 
-export default Project;
+export default Projects;

@@ -1,6 +1,4 @@
 import React from "react";
-import Portfolio from "./Portfolio";
-import Navigation from "./Navigation";
 
 function Header() {
     return (
