@@ -2,8 +2,8 @@ import React from 'react';
 
 function AboutMe() {
     return (
-        <div>
-            Blah blah
+        <div className='avatar'>
+            insert image and text
         </div>
     )
 }
