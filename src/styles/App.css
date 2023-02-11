@@ -10,8 +10,46 @@ body {
 } */
 
 h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: var(--white-color);
+  font-family: 'Orbitron';
   text-align: center;
+  margin: auto;
+  padding: 30px;
 }
+
+nav {
+  font-family: 'Orbitron';
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Orbitron';
+  color: var(--white-color);
+  height: fit-content;
+  font-weight: bolder;
+  margin-left: 10px;
+
+}
+
+nav li a {
+  margin-left: 30px;
+  text-decoration: none;
+  font: bolder;
+  font-size: 25px;
+  /* color: var(--white-color); */
+  align-content: center;
+}
+
+.links ul { 
+  list-style-type: none;
+  display: flex;
+  margin-left: 15px;
+  font-size: 15px;
+  justify-content: center;
+  height: 100%;
+}
+
 
 #profile {
   align-items: center;
@@ -23,8 +61,8 @@ h1 {
   font-weight: lighter;
   color: var(--white-color);
   font-size: 20px;
-  padding: 10px;   
-  margin-left: 10px; 
+  padding: 10px;
+  margin-left: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -37,8 +75,8 @@ h1 {
   font-weight: lighter;
   color: var(--white-color);
   font-size: 20px;
-  padding: 10px;   
-  margin-left: 10px; 
+  padding: 10px;
+  margin-left: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
