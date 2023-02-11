@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectCard from 'ProjectCard';
+import ProjectCard from './ProjectCard';
 
 function Projects() {
 
@@ -37,19 +37,17 @@ function Projects() {
 ]
 
   return (
-     
-
     <div className="row">
-        {project.map((project, index) => {
+        <div className="col-sm" align="center">
+        {(project.map(project => {
             return (
-                <div className="col-sm align-items-stretch" key={index}>
+                <div className="col-sm align-items-stretch" key={project.id}>
                 <ProjectCard name={project.name} image={project.image} description={project.description} />
                 </div>
             )
-        
-            })}
+            }))}
+        </div>   
     </div>   
-
 )
 }
 
