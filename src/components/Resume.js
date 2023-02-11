@@ -5,7 +5,7 @@ const Resume = () => {
  
     const onButtonClick = () => {
 
-        fetch('./images/S.Davidson_Resume_2021.pdf').then(response => {
+        fetch('S.Davidson_Resume_2021.pdf').then(response => {
             response.blob().then(blob => {
 
                 const fileURL = window.URL.createObjectURL(blob);

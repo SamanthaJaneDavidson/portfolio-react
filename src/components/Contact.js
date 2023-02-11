@@ -1,60 +1,50 @@
-// import React, { useState } from 'react';
+import React, { useState } from 'react';
+import './form.css';
+
+function Contact() {
+
+  const [contactName, setContactName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
 
-// function ContactForm() {
+  const handleFormSubmit = (e) => {
 
-//   const [ContactName, setContactName] = useState('');
-//   const [ContactEmail, setContactEmail] = useState('');
-//   const [ContactMessage, setContactMessage] = useState('');
+    e.preventDefault();
 
-// //   const handleInputChange = (e) => {
-// //     // Getting the value and name of the input which triggered the change
-// //     const { name, value } = e.target;
+    setContactName('');
+    setEmail('');
+    setMessage('');
+  };
 
-// //     // Ternary statement that will call either setFirstName or setLastName based on what field the user is typing in
-// //     return name === 'firstName' ? setFirstName(value) : setLastName(value);
-// //   };
+  return (
+    <div>
+        <p>
+        For any questions or inquires please fill out the below form.
+        </p>
+      <form className="form">
+        <input
+          value={contactName}
+          name="contactName"
+          type="text"
+          placeholder="Name"
+        />
+        <input
+          value={email}
+          name="email"
+          type="text"
+          placeholder="Email"
+        />
+        <input
+          value={message}
+          name="message"
+          type="text"
+          placeholder="Message"
+        />
+        <button type="button" onClick={handleFormSubmit}>Submit</button>
+      </form>
+    </div>
+  );
+}
 
-//   const handleFormSubmit = (e) => {
-//     // Preventing the default behavior of the form submit (which is to refresh the page)
-//     e.preventDefault();
-
-//     // Alert the user their first and last name, clear the inputs
-//     // alert(`Hello ${firstName} ${lastName}`);
-//     // setFirstName('');
-//     // setLastName('');
-//   };
-
-//   return (
-//     <div>
-//       <form className="form">
-//         <input
-//           value={ContactName}
-//           name="ContactName"
-//           onChange={handleFormSubmit}
-//           type="text"
-//           placeholder="Name"
-//         />
-//         <input
-//           value={ContactEmail}
-//           name="ContactEmail"
-//           onChange={handleFormSubmit}
-//           type="text"
-//           placeholder="Email address"
-//         />
-//         <input
-//           value={ContactMessage}
-//           name="ContactMessage"
-//           onChange={handleFormSubmit}
-//           type="text"
-//           placeholder="Message"
-//         />
-//         <button type="button" onClick={handleFormSubmit}>
-//           Submit
-//         </button>
-//       </form>
-//     </div>
-//   );
-// }
-
-// export default ContactForm;
+export default Contact;
