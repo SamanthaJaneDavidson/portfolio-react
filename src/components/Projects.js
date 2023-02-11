@@ -37,13 +37,23 @@ function Projects() {
 ]
 
   return (
-        // need to add some sort of map method here? 
-        <div className="row">
-            <div className="col-sm align-items-stretch" key={project.id}>
+     
+
+    <div className="row">
+        {project.map((project, index) => {
+            return (
+                <div className="col-sm align-items-stretch" key={index}>
                 <ProjectCard name={project.name} image={project.image} description={project.description} />
-            </div>
-            </div>
+                </div>
+            )
+        
+            })}
+    
+    </div>
+              
+    
 )
 }
+
 
 export default Projects;

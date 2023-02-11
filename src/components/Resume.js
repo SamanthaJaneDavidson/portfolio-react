@@ -20,7 +20,7 @@ const Resume = () => {
     return (
         <>
             <left>
-                <h3>To see my resume, please click below</h3>
+                <p>To see my resume, please click below</p>
                 <button onClick={onButtonClick}>
                     Download Resume
                 </button>
