@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './form.css';
+import '../styles/form.css';
 
 function Contact() {
 
