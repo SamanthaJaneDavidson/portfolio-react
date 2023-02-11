@@ -1,14 +1,49 @@
-import React from "react";
+import React from 'react';
+import ProjectCard from 'ProjectCard';
 
 function Projects() {
-    return (
-        <main className="main-page">
-            <section className="projects">
-                <a target="_blank" href="https://thaivytran.github.io/project-1/"><img src="./taco.png" alt="Tres Tamales"></img></a>
-                <a target="_blank" href="https://floating-reef-00120.herokuapp.com/"><img src="./Grrrrinder_dogs_mainpage.jpg" alt="Grrrr'inder"></img></a>
-            </section>
-        </main>
-    );
+
+  const project = [
+    {
+      name: "Grrrrinder",
+      image: "./images/Grrrrinder_dogs_mainpage.jpg",
+      description: "Add description."
+    },
+    {
+      name: "Tres Tamales",
+      image: "./images/taco.png",
+      description: "Add description."
+    },
+    {
+        name: "Note Taker",
+        image: "./images/note_taker.png",
+        description: "Add description."
+      },
+      {
+        name: "Weather Dashboard",
+        image: "./images/weather_dashboard.png",
+        description: "Add description."
+      },
+      {
+        name: "Password Generator",
+        image: "./images/password_generator.png",
+        description: "Add description."
+      },
+      {
+        name: "Code Quiz",
+        image: "./images/code_quiz.png",
+        description: "Add description."
+      }
+]
+
+  return (
+        // need to add some sort of map method here? 
+        <div className="row">
+            <div className="col-sm align-items-stretch" key={project.id}>
+                <ProjectCard name={project.name} image={project.image} description={project.description} />
+            </div>
+            </div>
+)
 }
 
 export default Projects;
