@@ -90,3 +90,66 @@ nav li a {
   width: 10%;
   padding: 20px;
 }
+
+@media screen and (max-width: 1280px) {
+  body { 
+      flex-direction: column;
+      text-align: center;
+      flex-wrap: wrap;
+      width: auto;
+  }
+
+  #project-info {
+      display: flex;
+      flex-direction: column;
+      flex-basis: content;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body { 
+      flex-direction: column;
+      text-align: left;
+      flex-wrap: wrap;
+      margin: 0;
+      font-size: 50%;
+  }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+      font-size: 40px;
+      text-align: center;
+      align-items: center;
+  }
+
+  h2, h3 {
+      font-size: 30px;
+      text-align: center;
+  }
+
+  .profile {
+      font-size: 50%;
+      padding: 0;
+      margin: 0;
+  }
+
+  p {
+      font-size: 75%;
+  }
+
+  main {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin: 10px;
+  }
+
+  #projects section {
+      width: 100%;
+      flex: 1 1 auto !important;
+  }
+}
