@@ -17,6 +17,9 @@ function Navigation(props) {
                 <li className="nav-item active">
                     <a className="nav-link" href="#Contact" onClick={() => props.handlePageChange('Contact')}>Contact<span className="sr-only"></span></a>
                 </li>
+                <li className="nav-item active">
+                    <a className="nav-link" href="#Resume" onClick={() => props.handlePageChange('Resume')}>Resume<span className="sr-only"></span></a>
+                </li>
             </ul>
         </div>
     </nav>
