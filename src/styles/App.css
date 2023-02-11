@@ -91,6 +91,23 @@ nav li a {
   padding: 20px;
 }
 
+
+.form {
+  margin: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+p {
+  text-align: center;
+}
+
+#resume {
+  align-items: center;
+}
+
 @media screen and (max-width: 1280px) {
   body { 
       flex-direction: column;

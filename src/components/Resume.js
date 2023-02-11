@@ -19,12 +19,12 @@ const Resume = () => {
     }
     return (
         <>
-            <left>
+            <center>
                 <p>To see my resume, please click below</p>
-                <button onClick={onButtonClick}>
+                <button id="resume" onClick={onButtonClick}>
                     Download Resume
                 </button>
-            </left>
+            </center>
         </>
     );
 };
