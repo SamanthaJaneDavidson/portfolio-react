@@ -1,8 +1,8 @@
 import React from "react";
+// import 'S.Davidson_Resume_2021';
 
 const Resume = () => {
-  
- 
+   
     const onButtonClick = () => {
 
         fetch('S.Davidson_Resume_2021.pdf').then(response => {

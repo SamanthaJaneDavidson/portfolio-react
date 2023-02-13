@@ -56,6 +56,12 @@ nav li a {
   height: calc(99vh - 60px);
 }
 
+img {
+    width: 150%;
+    height: auto;
+    display: block;
+}
+
 #sam-info ul {
   font-family: 'Orbitron';
   font-weight: lighter;
@@ -130,6 +136,11 @@ p {
       flex-wrap: wrap;
       margin: 0;
       font-size: 50%;
+  }
+
+  nav {
+    display: flex;
+    justify-content:;
   }
 
   nav ul {

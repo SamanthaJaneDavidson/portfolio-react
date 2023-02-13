@@ -39,10 +39,11 @@ function Projects() {
   return (
     <div className="row">
         <div className="col-sm" align="center">
-        {(project.map(project => {
+        {(project.map(potato => {
+          console.log(project)
             return (
-                <div className="col-sm align-items-stretch" key={project.id}>
-                <ProjectCard name={project.name} image={project.image} description={project.description} />
+                <div className="col-sm align-items-stretch" key={potato.id}>
+                <ProjectCard name={potato.name} image={potato.image} description={potato.description} />
                 </div>
             )
             }))}

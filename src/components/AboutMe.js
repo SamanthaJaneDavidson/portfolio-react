@@ -1,5 +1,5 @@
 import React from 'react';
-// import Sam from '../images/sam-bitmoji.png';
+import Sam from '../images/sam-bitmoji.png';
 import '../styles/App.css';
 
 function AboutMe() {
@@ -7,7 +7,7 @@ function AboutMe() {
         <div id="main-page">
             <div id="profile">
                 <figure id="sam-avatar">
-                    {/* <img src={Sam} alt="Sam's Avatar"></img> */}
+                    <img src={Sam} alt="Sam's Avatar"></img>
                 </figure>
 
                 <section id="sam-info">

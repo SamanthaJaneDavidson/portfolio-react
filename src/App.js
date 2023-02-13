@@ -6,7 +6,8 @@ import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
-import ProjectCard from "./components/ProjectCard";
+// import ProjectCard from "./components/ProjectCard";
+import Projects from "./components/Projects"
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
       return <Contact />;
     }
     if (currentPage === 'Projects') {
-      return <ProjectCard />
+      return <Projects />
     }
     if (currentPage === 'Resume') {
       return <Resume />
