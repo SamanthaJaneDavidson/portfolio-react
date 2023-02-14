@@ -114,6 +114,17 @@ p {
   align-items: center;
 }
 
+.flex-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-style {
+  margin: 10px;
+  height: 30vh;
+}
+
 @media screen and (max-width: 1280px) {
   body { 
       flex-direction: column;

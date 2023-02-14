@@ -6,39 +6,37 @@ function Projects() {
   const project = [
     {
       name: "Grrrrinder",
-      image: "./images/Grrrrinder_dogs_mainpage.jpg",
-      description: "Add description."
+      image: require('../images/Grrrrinder_dogs_mainpage.jpg'),
     },
     {
       name: "Tres Tamales",
-      image: "./images/taco.png",
-      description: "Add description."
+      image: require("../images/taco.png")
     },
     {
         name: "Note Taker",
-        image: "./images/note_taker.png",
-        description: "Add description."
+        image: require("../images/note_taker.png")
+
       },
       {
         name: "Weather Dashboard",
-        image: "./images/weather_dashboard.png",
-        description: "Add description."
+        image: require("../images/weather_dashboard.png")
+
       },
       {
         name: "Password Generator",
-        image: "./images/password_generator.png",
-        description: "Add description."
+        image: require("../images/password_generator.png")
+
       },
       {
         name: "Code Quiz",
-        image: "./images/code_quiz.png",
-        description: "Add description."
+        image: require("../images/code_quiz.png"),
+
       }
 ]
 
   return (
     <div className="row">
-        <div className="col-sm" align="center">
+        <div className="col-sm flex-card" align="center">
         {(project.map(potato => {
           console.log(project)
             return (
