@@ -1,9 +1,21 @@
 {
   "files": {
-    "main.js": "/static/js/main.31d6cfe0.js",
-    "index.html": "/index.html"
+    "main.css": "/portfolio-react/static/css/main.f98f82ed.css",
+    "main.js": "/portfolio-react/static/js/main.5ede1d90.js",
+    "static/media/sam-bitmoji.png": "/portfolio-react/static/media/sam-bitmoji.c242148d20a7bcf66511.png",
+    "static/media/taco.png": "/portfolio-react/static/media/taco.d21106770d6a82c7a5d9.png",
+    "static/media/weather_dashboard.png": "/portfolio-react/static/media/weather_dashboard.035533ed064205ae3dee.png",
+    "static/media/S.Davidson_Resume_2021.pdf": "/portfolio-react/static/media/S.Davidson_Resume_2021.8f16e19c01555aae5968.pdf",
+    "static/media/Grrrrinder_dogs_mainpage.jpg": "/portfolio-react/static/media/Grrrrinder_dogs_mainpage.90ca09bcfdab71bfdf36.jpg",
+    "static/media/password_generator.png": "/portfolio-react/static/media/password_generator.fbc9ce6ae7b675be9334.png",
+    "static/media/code_quiz.png": "/portfolio-react/static/media/code_quiz.79f41494e0b9b683a7db.png",
+    "static/media/note_taker.png": "/portfolio-react/static/media/note_taker.6ce59efc9d23c303da43.png",
+    "index.html": "/portfolio-react/index.html",
+    "main.f98f82ed.css.map": "/portfolio-react/static/css/main.f98f82ed.css.map",
+    "main.5ede1d90.js.map": "/portfolio-react/static/js/main.5ede1d90.js.map"
   },
   "entrypoints": [
-    "static/js/main.31d6cfe0.js"
+    "static/css/main.f98f82ed.css",
+    "static/js/main.5ede1d90.js"
   ]
 }
