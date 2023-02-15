@@ -7,29 +7,35 @@ function Projects() {
     {
       name: "Grrrrinder",
       image: require('../images/Grrrrinder_dogs_mainpage.jpg'),
+      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
       name: "Tres Tamales",
-      image: require("../images/taco.png")
+      image: require("../images/taco.png"),
+      link: "https://thaivytran.github.io/project-1/"
     },
     {
         name: "Note Taker",
-        image: require("../images/note_taker.png")
+        image: require("../images/note_taker.png"),
+        link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
       },
       {
         name: "Weather Dashboard",
-        image: require("../images/weather_dashboard.png")
+        image: require("../images/weather_dashboard.png"),
+        link: "https://samanthajanedavidson.github.io/weather-dashboard/"
 
       },
       {
         name: "Password Generator",
-        image: require("../images/password_generator.png")
+        image: require("../images/password_generator.png"),
+        link: "https://samanthajanedavidson.github.io/password-generator/"
 
       },
       {
         name: "Code Quiz",
         image: require("../images/code_quiz.png"),
+        link: "https://samanthajanedavidson.github.io/code-quiz/"
 
       }
 ]
@@ -41,7 +47,7 @@ function Projects() {
           console.log(project)
             return (
                 <div className="col-sm align-items-stretch" key={potato.id}>
-                <ProjectCard name={potato.name} image={potato.image} description={potato.description} />
+                <ProjectCard name={potato.name} image={potato.image} link={potato.link} />
                 </div>
             )
             }))}

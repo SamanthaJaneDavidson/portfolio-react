@@ -2,7 +2,7 @@ import React from "react";
 
 function Navigation(props) {
     return (
-        <div className="navbar navbar-expand{-sm|-md|-lg|-xl}">
+        <div className="navbar">
             <nav id="main-nav" className="links">
                 <ul>
                     <li className="nav-item active">
