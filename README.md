@@ -6,7 +6,9 @@ The goal of this project was to was to create a professional portfolio website. 
 
 ## Site Image
 
-To visit the site, please click [https://samanthajanedavidson.github.io/portfolio-react/](TBA).
+![Portfolio Screenshot](./src/images/site-screenshot.png)
+
+To visit the site, please click [here](https://samanthajanedavidson.github.io/portfolio-react/).
 
 ## License
 
