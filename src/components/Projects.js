@@ -7,7 +7,7 @@ function Projects() {
     {
       name: "Grrrrinder",
       image: require('../images/Grrrrinder_dogs_mainpage.jpg'),
-      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      link: "https://grrrrinder2.herokuapp.com/"
     },
     {
       name: "Tres Tamales",
